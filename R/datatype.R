@@ -14,3 +14,7 @@ print(class(data))
 # Complex number in R
 data <- 1 + 2i
 print(class(data))
+
+# The string is called "character" in R
+data <- "FALSE"
+print(class(data))
