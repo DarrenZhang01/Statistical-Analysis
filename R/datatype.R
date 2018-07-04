@@ -31,3 +31,8 @@ print(class(v))
 # matrices in R
 M = matrix(c('a', 'b', 'c', 'd', 'e', 'f'), nrow = 2, ncol = 3, byrow = TRUE)
 print(M)
+
+# vector addition 
+v1 = c(1, 2, 3)
+v2 = c(3, 2, 1)
+print(v1 + v2)
