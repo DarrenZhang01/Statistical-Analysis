@@ -22,3 +22,8 @@ print(class(data))
 # The raw type in R, which is stored as the hexidecimal
 data <- charToRaw("hello world");
 print(class(data))
+
+# Construct vectors in R (use function "c")
+v <- c('a', 'b', 'c')
+print(v)
+print(class(v))
