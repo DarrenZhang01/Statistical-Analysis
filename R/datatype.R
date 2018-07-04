@@ -53,3 +53,6 @@ print(v1 < v2)
 v1 = c(1, 1, 0)
 v2 = c(0, 1, 1)
 print(v1 & v2)
+
+# element-wisr logic "or" in R
+print(v1 | v2)
