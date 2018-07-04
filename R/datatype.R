@@ -10,3 +10,7 @@ print(class(data))
 # Note that integer is different from numeric types in R
 data <- 10L
 print(class(data))
+
+# Complex number in R
+data <- 1 + 2i
+print(class(data))
