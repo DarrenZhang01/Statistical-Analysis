@@ -41,3 +41,8 @@ print(v1 + v2)
 v1 = c(1, 2, 3)
 v2 = c(1, 2, 3)
 print(v1 * v2)
+
+# element-wise vector comparison
+v1 = c(1, 2, 3)
+v2 = c(2, 2, 3)
+print(v1 != v2)
