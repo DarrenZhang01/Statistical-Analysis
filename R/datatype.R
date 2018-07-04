@@ -48,3 +48,8 @@ v2 = c(2, 2, 3)
 print(v1 != v2)
 print(v1 == v2)
 print(v1 < v2)
+
+# element-wise logic "and" in R
+v1 = c(1, 1, 0)
+v2 = c(0, 1, 1)
+print(v1 & v2)
