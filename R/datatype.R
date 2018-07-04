@@ -18,3 +18,7 @@ print(class(data))
 # The string is called "character" in R
 data <- "FALSE"
 print(class(data))
+
+# The raw type in R, which is stored as the hexidecimal
+data <- charToRaw("hello world");
+print(class(data))
