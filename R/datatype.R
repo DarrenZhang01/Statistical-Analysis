@@ -36,3 +36,8 @@ print(M)
 v1 = c(1, 2, 3)
 v2 = c(3, 2, 1)
 print(v1 + v2)
+
+# element-wise vector multiplication
+v1 = c(1, 2, 3)
+v2 = c(1, 2, 3)
+print(v1 * v2)
