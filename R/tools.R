@@ -5,3 +5,5 @@ x = c(1, 2, 3, 4, 5)
 print(mean(x))
 # Print out the variance of vector x
 print(var(x))
+# Print out the median of vector x
+print(median(x))
