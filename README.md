@@ -4,16 +4,21 @@
 
 http://cran.utstat.utoronto.ca
 ***
-### Go to the R environment in the command line
+* <h3> Change the language setting of R into English</h3>
+open the bash profile, add the following line into it
+```
+export LANG=en_US.UTF-8
+```
+*<h3> Go to the R environment in the command line</h3>
 ```
 $ R
 ```
-### Run the R script file
+*<h3> Run the R script file</h3>
 ```
 $ Rscript helloworld.R
 ```
 ***
-### normal distribution graph using R
+*<h3> normal distribution graph using R</h3>
 ```
 x = rnorm(100)
 ```
