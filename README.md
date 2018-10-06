@@ -25,4 +25,8 @@ x = rnorm(100)
 ```
 hist(x, prob=TRUE, 10)
 ```
-
+* <h3> Knit the pdf/html file using the rmarkdown </h3>
+```
+> library(rmarkdown)
+> rmarkdown::render("example.rmd", "pdf_document") # or "html_document"
+```
