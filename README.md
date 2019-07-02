@@ -30,3 +30,15 @@ hist(x, prob=TRUE, 10)
 > library(rmarkdown)
 > render("example.rmd", "pdf_document") # or "html_document"
 ```
+* <h3> Setting CRAN (Comprehensive R Archive Network) </h3>
+```
+> chooseCRANmirror()
+```
+* <h3> Check the existing library </h3>
+```
+> library()
+```
+* <h3> Install packages </h3>
+```
+> install.packages("...")
+```
